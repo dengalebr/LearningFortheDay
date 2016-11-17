@@ -1,10 +1,10 @@
 ## What is SSH Key-Based Authentication on Linux | How to configure
 
-###### Introduction:
+###### **Introduction:**
 SSH or Secured Shell is encrypted protocol used to connect to server terminal remotely. There are few different methods of authentications to login to terminal, like password, SSH key etc.
 SSH keys provide easy and secure approach to logging to your server.
 
-###### How Do SSH Keys work?
+###### **How Do SSH Keys work?**
 Most common and easier approach to authenticate to terminal is password. Although passwords are sent to the server in a secure manner, they are generally not complex or long enough for attackers to break it. Modern processing compute power can easily break simple passwords with brute force approach. So with this approach SSH prove to be reliable and secure alternative.
 
 SSH key pairs are two cryptographically secure keys that can be used to authenticate client to an SSH server. Each key consists of public key and private key.
