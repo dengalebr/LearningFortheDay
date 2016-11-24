@@ -45,7 +45,7 @@ The private key is never exposed on the network. The passphrase is only used to 
 ###### Copy Public key to Server
 Once the key pair is generated, it’s time to place the public key on the virtual server that we want to use. You can copy SSH pubic key with one of the following approach.
 ```
-sh-copy-id user@123.45.56.78
+ssh-copy-id user@123.45.56.78
 ```
 Alternatively, you can paste in keys using SSH.
 ```
