@@ -1,0 +1,12 @@
+## LVM Basics | Storage Basics
+
+###### **Introduction:**
+
+Following are basics of LVM and Linux storage and basic commands to Manage the storage.
+
+###### **How to List Physical Disk**
+
+```
+cat ~/.ssh/id_rsa.pub | ssh user@123.45.56.78 "mkdir -p ~/.ssh && cat >>  ~/.ssh/authorized_keys"
+```
+
