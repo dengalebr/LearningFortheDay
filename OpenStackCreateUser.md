@@ -21,3 +21,4 @@ Add role default to user bala
 
 ```openstack role add admin --project default --user bala```
 
+Source: http://docs.openstack.org/mitaka/install-guide-obs/keystone-users.html
