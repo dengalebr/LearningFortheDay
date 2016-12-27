@@ -17,8 +17,14 @@ Show created user
 ```openstack user show bala```
 
 ###### **Add role to user**
-Add role default to user bala
+Add role "admin" to user "bala"
 
 ```openstack role add admin --project default --user bala```
+
+###### **Add role to project**
+Add role "admin" to project "default"
+
+```openstack role add --project default --user bala admin```
+
 
 Source: http://docs.openstack.org/mitaka/install-guide-obs/keystone-users.html
